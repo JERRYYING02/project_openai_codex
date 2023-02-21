@@ -44,6 +44,8 @@ function generateUniqueId() {
     return `id-${timestamp}-${hexadecimalString}`;
 }
 
+
+//template string 
 function chatStripe(isAi, value, uniqueId) {
     return (
         `
